@@ -1,19 +1,19 @@
 # Spring Boot + Angular 17 + PostgreSQL CRUD example
 
-Full-stack Angular 17 + Spring Boot + PostgreSQL CRUD Tutorial Application in that:
-- Each Tutorial has id, title, description, published status.
-- We can create, retrieve, update, delete Tutorials.
-- We can also find Tutorials by title.
+Full-stack Angular 17 + Spring Boot + PostgreSQL CRUD Aplicacion Tutorial en el que:
+- Cada Tutorial tiene id, title, description, published status.
+- Podemos crear, obtener, actualizar, borrar Tutorials.
+- Tambien podemos encontrar Tutorials por titulo.
 
 ![spring-boot-angular-17-postgresql-example-crud.png](spring-boot-angular-17-postgresql-example-crud.png)
 
-For more detail, please visit:
+Para mas detalle, porfavor visite:
 > [Spring Boot + Angular 17 + PostgreSQL: CRUD example](https://www.bezkoder.com/spring-boot-angular-17-postgresql/)
 
-Run both Back-end & Front-end in one place:
+Corra ambos Back-end & Front-end en un solo lugar:
 > [Integrate Angular with Spring Boot Rest API](https://www.bezkoder.com/integrate-angular-spring-boot/)
 
-More Practice:
+Mas Practica:
 > [Angular 17 + Spring Boot: File upload example](https://www.bezkoder.com/angular-17-spring-boot-file-upload/)
 
 > [Angular 17 + Spring Boot: JWT Authentication and Authorization example](https://www.bezkoder.com/angular-17-spring-boot-jwt-auth/)
@@ -29,3 +29,4 @@ The Spring Boot Server will export API at port `8081`.
 npm install
 ng serve --port 8081
 ```
+Es necesario crear una base de datos llamada testdb, la aplicacion se encarga de crear la tabla

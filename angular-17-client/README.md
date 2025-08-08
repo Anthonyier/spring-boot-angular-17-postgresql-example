@@ -1,20 +1,20 @@
 # Angular 17 example project: CRUD with Rest API
 
-Build an Angular 17 CRUD example App to consume Rest APIs, display, modify & search data.
+Construye un ejemplo de App Angular 17 CRUD para consumir Rest APIs, display, modify & search data.
 
-Tutorial Application in that:
-- Each Tutorial has id, title, description, published status.
-- We can create, retrieve, update, delete Tutorials.
-- There is a Search bar for finding Tutorials by title.
+Tutorial Application en que:
+- Cada Tutorial tiene id, title, description, published status.
+- Podeos crear, obtener, actualizar, borrar Tutorial.
+- Hay una barra de busqur para encontrar Tutorials por titulo.
 
 ![angular-17-crud-example](angular-17-crud-example.png)
 
 Run `ng serve --port 8081` for a dev server. Navigate to `http://localhost:8081/`. The app will automatically reload if you change any of the source files.
 
-For instruction, please visit:
+Para instrucciones, porfavor visita:
 > [Angular 17 CRUD example with Rest API](https://www.bezkoder.com/angular-17-crud-example/)
 
-More Practice:
+Mas Practica:
 > [Angular 17 Pagination example](https://www.bezkoder.com/angular-17-pagination-ngx/)
 
 > [Angular 17 JWT Authentication & Authorization example](https://www.bezkoder.com/angular-17-jwt-auth/)
@@ -54,7 +54,7 @@ Fullstack with Django:
 
 > [Angular + Django + MongoDB](https://www.bezkoder.com/django-angular-mongodb/)
 
-Security:
+Seguridad:
 > [Angular 17 + Spring Boot: JWT Authentication and Authorization example](https://www.bezkoder.com/angular-17-spring-boot-jwt-auth/)
 
 > [Angular 17 + Node.js Express: JWT Authentication and Authorization example](https://www.bezkoder.com/node-js-angular-17-jwt-auth/)
@@ -66,7 +66,7 @@ Serverless with Firebase:
 
 > [Angular 17 Firebase Storage: File Upload/Display/Delete example](https://www.bezkoder.com/angular-17-firebase-storage/)
 
-Integration (run back-end & front-end on same server/port)
+Integracion (run back-end & front-end on same server/port)
 > [How to integrate Angular with Node Restful Services](https://bezkoder.com/integrate-angular-12-node-js/)
 
 > [How to Integrate Angular with Spring Boot Rest API](https://bezkoder.com/integrate-angular-12-spring-boot/)

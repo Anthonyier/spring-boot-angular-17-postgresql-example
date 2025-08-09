@@ -7,6 +7,12 @@ Full-stack Angular 17 + Spring Boot + PostgreSQL CRUD Aplicacion Tutorial en el 
 
 ![spring-boot-angular-17-postgresql-example-crud.png](spring-boot-angular-17-postgresql-example-crud.png)
 
+Requerimientos:
+-Spring Boot
+-Angular 17
+-PostgreSql
+-Port 8081 libre
+
 Para mas detalle, porfavor visite:
 > [Spring Boot + Angular 17 + PostgreSQL: CRUD example](https://www.bezkoder.com/spring-boot-angular-17-postgresql/)
 

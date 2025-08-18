@@ -30,7 +30,7 @@ cd angular-17-client
 npm install
 ```
 
-### Construir en proyecto
+### Construir el proyecto
 ```bash
 ng build
 ```

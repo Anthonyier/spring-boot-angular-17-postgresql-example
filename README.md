@@ -97,6 +97,7 @@ Base Url [http://localhost:8085](http://localhost:8085)
 listen       3000;
 server_name  localhost;
 
+### Locacion si solo queremos hacer correr un deploy en nginx
 location / 
 {
     root   C:/nginx/html/Angular20/browser;
@@ -108,4 +109,25 @@ location /
         root   html;
      }
 }
-```
+
+### Locacion si queremos usar 3 deploy en nginx
+``` # DEV environment
+        location /dev/ {
+            alias  C:/nginx/html/Angular20/dev/;
+            index  index.html;
+            try_files $uri $uri/ /index.html;
+        }
+
+        # TEST environment
+        location /test/ {
+            alias   C:/nginx/html/Angular20/test/;
+            index  index.html;
+            try_files $uri $uri/ /index.html;
+        }
+
+        # STAGING environment
+        location /staging/ {
+            alias   C:/nginx/html/Angular20/staging/;
+            index  index.html;
+            try_files $uri $uri/ /index.html;
+        }

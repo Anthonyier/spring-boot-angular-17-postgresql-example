@@ -1,4 +1,4 @@
 export const environment = {
   production: false,
-  apiUrl: '/dev/api/',
+  apiUrl: '/dev/',
 };

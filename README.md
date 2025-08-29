@@ -159,6 +159,7 @@ location /
             proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
             proxy_set_header X-Forwarded-Proto $scheme;
         }
+```
 ### Puerto dev
 8085
 ### Puerto test

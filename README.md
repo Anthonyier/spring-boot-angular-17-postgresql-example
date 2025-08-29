@@ -131,3 +131,39 @@ location /
             index  index.html;
             try_files $uri $uri/ /index.html;
         }
+
+## Configuracion de NGinx para poder correr BackEnd, incluyendo Puertos
+```location /backdev04/ {
+            rewrite ^/backdev04/(.*)$ /$1 break;
+            proxy_pass http://localhost:8085;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $scheme;
+        }
+        
+        location /backtest04/ {
+            rewrite ^/backtest04/(.*)$ /$1 break;
+            proxy_pass http://localhost:8086;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $scheme;
+        }
+        
+        location /backstaging04/ {
+            rewrite ^/backstaging04/(.*)$ /$1 break;
+            proxy_pass http://localhost:8087;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $scheme;
+        }
+### Puerto dev
+8085
+### Puerto test
+8086
+### Puerto staging
+8087
+
+ ### Es De mucha importancia hacer notar que es necesario que se usen dos pipelines una para FrontEnd y otra para BackEnd
